@@ -36,7 +36,7 @@ button {
     display: inline-block;
     padding: 15% 32%;
 } */
-
+background:rgb(160, 230, 181);
 #title {
     Padding : 4em;
 }
@@ -44,6 +44,17 @@ button {
 h1,h2 {
     color: green;
     text-align: center;
+}
+h2 {
+    color: green;
+    text-align: center;
+    top margin: ;
+}
+
+h1 {
+    background: linear-gradient(to right, #36ecde, #000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 *{
