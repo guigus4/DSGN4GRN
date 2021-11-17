@@ -137,5 +137,6 @@ nav > ul li:hover .sous{
 #rectangle{
     width:25%;
     height:20%;
+    border: 3px; ;
     background:rgb(24, 24, 85);
 }
