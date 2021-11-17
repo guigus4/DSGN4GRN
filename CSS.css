@@ -135,6 +135,9 @@ nav > ul li:hover .sous{
 .deroulant > a::after{
     content:" ▼";
     font-size: 100%;
+    width: 25% ;
+    height: 15%;
+    border-radius: 10%;
 }
 
 .conteneur{
