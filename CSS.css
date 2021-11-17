@@ -4,3 +4,45 @@
     cursor:url("https://1.bp.blogspot.com/-NmbnDADABUE/XSfhUk_X2yI/AAAAAAAAFFw/5Tp7zt_8erg2AJ-aQ1VhYdH_l4nTReY7wCLcBGAs/s1600/cursor.png"), default;
 
   }
+
+  body {
+    background-color: #d3e4c5;
+}
+
+h1 {
+    color: #494650;
+}
+
+h2 {
+    color: #494650;
+}
+
+h3 {
+    font-weight: bold;
+    color: #494650;
+}
+
+p {
+    font-family: Tahoma, sans-serif;
+    color : #494650;
+    font-size: 20px;
+}
+
+#Title {
+    Padding : 4em;
+}
+
+.div_style {
+    background-color: #fafff4;
+    padding: 1em;
+    margin-top:30px;
+}
+
+button {
+    background-color: #3f6448;
+    text-decoration: none;
+    border: none;
+    color: white;
+    display: inline-block;
+    padding: 15px 32px;
+}
