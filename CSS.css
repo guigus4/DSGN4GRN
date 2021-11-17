@@ -1,11 +1,11 @@
 #Coucou c'est le CSS
 a{
     cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png");
-    color: black;
+    /*color: black;*/
   }
 
   body {
-    background-color: #d3e4c5;
+    background-color: lightgray;
 }
 
 h1 {
