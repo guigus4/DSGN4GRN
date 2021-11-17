@@ -110,7 +110,7 @@ nav > ul li:hover .sous{
 }
 .sous li{
     float: none;
-    width: 10%;
+    width: 100%;
     text-align: left;
 }
 .sous a{
