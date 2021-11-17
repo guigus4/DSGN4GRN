@@ -36,7 +36,7 @@ button {
     display: inline-block;
     padding: 15% 32%;
 } */
-background:rgb(160, 230, 181);
+
 #title {
     Padding : 4em;
 }
@@ -48,7 +48,7 @@ h1,h2 {
 h2 {
     color: green;
     text-align: center;
-    top margin: ;
+    
 }
 
 h1 {
@@ -148,7 +148,10 @@ nav > ul li:hover .sous{
 }
 #rectangle{
 
-    width: 25% ;
-    height: 15%;
-    border-radius: 10%;
+    width:25%;
+    height:20%;
+    border: 1px solid#000;
+    background:rgb(160, 230, 181);
+    padding: 10% 10%;
+    rx="20" ry="20";
 }
