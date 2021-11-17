@@ -143,8 +143,14 @@ nav > ul li:hover .sous{
   height: 10%;
 }
 .banner {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
     padding:2%; 
+    display: block;
     text-align:center;
+     width: 50%;
 }
 #rectangle{
 
