@@ -148,6 +148,7 @@ nav > ul li:hover .sous{
 }
 .deroulant > a::after{
     content:" ▼";
+    height: 100%;
 }
 
 .conteneur{
