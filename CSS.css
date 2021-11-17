@@ -105,6 +105,7 @@ nav ul::after{
     content: "";
     display: table;
     clear: both;
+    height: 60%;
 }
 
 nav a{
