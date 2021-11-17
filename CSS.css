@@ -145,7 +145,7 @@ nav > ul li:hover .sous{
     padding:2%; 
     text-align:center;
 }
-#rectangle{
+.rectangle{
 
     width:25%;
     height:20%;
