@@ -1,6 +1,6 @@
 #Coucou c'est le CSS
 a{
-    cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png");
+    cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png") default;
     /*color: black;*/
   }
 
