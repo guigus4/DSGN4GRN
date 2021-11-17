@@ -96,6 +96,7 @@ nav ul li{
     float: left;
     width: 25%;
     border: 1%;
+    height: 60%;
     text-align: center;
     position: relative;
 }
