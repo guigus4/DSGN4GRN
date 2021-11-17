@@ -1,7 +1,6 @@
 #Coucou c'est le CSS
 a{
     cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png") default;
-    /*color: black;*/
   }
 
   body {
@@ -10,26 +9,22 @@ a{
 
 h1 {
     color: #494650;
-    cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png") default;
     text-decoration:none
 }
 
 h2 {
     color: #494650;
-    cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png") default;
    
 }
 
 h3 {
     font-weight: bold;
-    cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png") default;
     color: #494650;
     text-decoration:none
 }
 
 p {
     font-family: Tahoma, sans-serif;
-    cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png") default;
     color : #494650;
     font-size: 20px;
     text-decoration:none
@@ -37,7 +32,6 @@ p {
 
 #Title {
     Padding : 4em;
-    cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png") default;
     text-decoration:none
 }
 
@@ -49,7 +43,6 @@ p {
 
 button {
     background-color: #3f6448;
-    cursor: url("https://i.postimg.cc/C1C3Z4sG/peppa-png.png") default;
     text-decoration: none;
     border: none;
     color: white;
