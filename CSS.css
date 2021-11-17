@@ -174,7 +174,6 @@ nav > ul li:hover .sous{
     border: 1px solid#000;
     background:rgb(160, 230, 181);
     padding: 10% 10%;
-    rx="20" ry="20";
 }
 body{
 	background: linear-gradient(to bottom, #F2F8F9, #FFFFFF);
