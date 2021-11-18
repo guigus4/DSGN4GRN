@@ -70,7 +70,6 @@ nav{
     height: 100%;
     margin: 0 auto;
     background-color: white;
-    position: sticky;
     top: 0%;
 }
 
@@ -112,7 +111,6 @@ nav a{
     color: black;
     border-bottom: 2% solid transparent;
     padding: 10% 10%;
-    position: sticky;
 }
 
 nav a:hover{
@@ -126,7 +124,6 @@ nav a:hover{
     background-color: white;
     width: 100%;
     z-index: 2;
-    position: sticky;
 }
 nav > ul li:hover .sous{
     color: green;
