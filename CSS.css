@@ -114,6 +114,7 @@ nav a{
     color: black;
     border-bottom: 2% solid transparent;
     padding: 10% 10%;
+    position: sticky;
 }
 
 nav a:hover{
@@ -125,7 +126,6 @@ nav a:hover{
     display: none;
     box-shadow: 0% 1% 2% #CCC;
     background-color: white;
-    position: absolute;
     width: 100%;
     z-index: 2;
 }
