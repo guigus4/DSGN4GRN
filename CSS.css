@@ -40,10 +40,16 @@ button {
     Padding : 4em;
 }
 
-h1,h2 {
+h2 {
     color: green;
     text-align: center;
+    top margin: ;
+}
 
+h1 {
+    background: linear-gradient(to right, #36ecde, #000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 *{
