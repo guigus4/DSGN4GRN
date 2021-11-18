@@ -36,7 +36,6 @@ button {
     display: inline-block;
     padding: 15% 32%;
 } */
-
 #title {
     Padding : 4em;
 }
@@ -44,17 +43,7 @@ button {
 h1,h2 {
     color: green;
     text-align: center;
-}
-h2 {
-    color: green;
-    text-align: center;
-    
-}
-
-h1 {
-    background: linear-gradient(to right, #36ecde, #000);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    top margin: ;
 }
 
 *{
@@ -67,34 +56,23 @@ h1 {
 nav{
     color: green;
     width: 100%;
-    height: 100%;
     margin: 0 auto;
     background-color: white;
+    position: sticky;
     top: 0%;
 }
 
 nav ul{
     color: green;
     list-style-type: none;
-    display: block;
-    top: 0px;
-    width: 100%;
-    background-color: #f2f8f9;
-    border-radius: 6px;
-    padding: 32px 24px;
-    margin: 1%;
-    text-decoration: none;
-    overflow: hidden;
-    border: 1px solid #f2f8f9;
-    transition: all 0.3s ease-out;
 }
 
 nav ul li{
     color: green;
     float: left;
     width: 25%;
-    border: 1%;
     text-align: center;
+    position: relative;
 }
 
 nav ul::after{
@@ -110,7 +88,7 @@ nav a{
     text-decoration: none;
     color: black;
     border-bottom: 2% solid transparent;
-    padding: 10% 10%;
+    padding: 10% 0%;
 }
 
 nav a:hover{
@@ -122,8 +100,9 @@ nav a:hover{
     display: none;
     box-shadow: 0% 1% 2% #CCC;
     background-color: white;
+    position: absolute;
     width: 100%;
-    z-index: 2;
+    z-index: 1000;
 }
 nav > ul li:hover .sous{
     color: green;
@@ -133,10 +112,9 @@ nav > ul li:hover .sous{
     float: none;
     width: 100%;
     text-align: left;
-
 }
 .sous a{
-    padding: 1%;
+    padding: 10%;
     border-bottom: none;
 }
 .sous a:hover{
@@ -145,27 +123,24 @@ nav > ul li:hover .sous{
 }
 .deroulant > a::after{
     content:" ▼";
-    height: 100%;
-    z-index: 1;
+    font-size: 100%;
 }
 
 .conteneur{
-  margin: 5% 5%;
-  height: 100%;
+  margin: 50% 20%;
+  height: 1500%;
 }
 .banner {
     border: 0;
     font-size: 100%;
-    color:rgb(160,230,181) ;
+    font: inherit;
     vertical-align: baseline;
     padding:2%; 
     display: block;
     text-align:center;
-    width: 100%;
-    height: 100%;
+    width: 50%;
 }
 
-}
 body{
     height: 100vh;
 	background: linear-gradient(to bottom, #F2F8F9, #FFFFFF);
