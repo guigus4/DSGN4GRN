@@ -1,19 +1,4 @@
-[{
-        "ID": "STR-1",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Definir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
+data = [{
         "ID": "STR-1.01",
         "Planet": "A",
         "People": "A",
@@ -140,16 +125,6 @@
         "Prosperity": "A",
         "Recommandation": "Definir et valider les besoins et les enjeux du projet afin d'anticiper les impacts",
         "Titre": "\"L'ensemble des produits et services sont-ils indispensables en ligne ? "
-    },
-    {
-        "ID": "\"",
-        "Planet": "Certaines fonctionnalites sont proposees en mode connecte alors qu'aucune donnee distante ou aucun processus de calcul lourd n'est requis, dans ces cas une solution locale (hors ligne) est efficace d'un point de vue environnemental avec moins de circulation d'information et moins d'utilisation des reseaux. En revanche, si le mode hors ligne necessite des duplications d'informations, il ne se justifie que si les acces reseaux sont intermittents et posent des difficultes d'utilisation du service.",
-        "People": "Conception",
-        "Prosperity": "*",
-        "Recommandation": "",
-        "Titre": "ProductOwner ,",
-        "Precisions": "Medium",
-        "Etape": "Once"
     },
     {
         "ID": "STR-1.08",
@@ -407,21 +382,6 @@
         "Recurrence": "Once"
     },
     {
-        "ID": "STR-2",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Prevoir, preparer et valider les disponibilites des ressources humaines du Numerique Responsable",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "STR-2.01",
         "Planet": "A",
         "People": "A",
@@ -551,21 +511,6 @@
         "Precisions": "Obtenir et maintenir l'engagement des acteurs est un point important pour que le NR devienne la norme de fait.",
         "Etape": "Utilisation",
         "Difficulte": "N/A",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
-        "ID": "STR-3",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Determiner et planifier la capacite de suivre et capitaliser sur les composantes Numerique Responsable des projets",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
         "Incontournables": "",
         "Metiers": "",
         "Priorite": "",
@@ -782,21 +727,6 @@
         "Recurrence": "Once"
     },
     {
-        "ID": "STR-4",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Prevoir, preparer et valider les elements techniques du projet pour la conformite avec le Numerique Responsable",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "STR-4.C01",
         "Planet": "B",
         "People": "B",
@@ -932,21 +862,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "SPC-1",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Organiser les ressources humaines projets pour permettre la prise en compte de la demarche NR",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "SPC-1.01",
         "Planet": "A",
         "People": "A",
@@ -1037,21 +952,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "SPC-2",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Inclure les utilisateurs dans les ressources projet NR",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "SPC-2.C01",
         "Planet": "B",
         "People": "B",
@@ -1125,21 +1025,6 @@
         "Metiers": "ProductOwner , RSE/NR",
         "Priorite": "Low",
         "Recurrence": "Periodic"
-    },
-    {
-        "ID": "SPC-3",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Organiser la methodologie projet pour permettre d'appliquer une demarche NR",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "SPC-3.C01",
@@ -1275,21 +1160,6 @@
         "Metiers": "Dev ,ProjectMngr , ProductOwner , ITMngr",
         "Priorite": "Medium",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "SPC-4",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Construire le perimetre du projet et valider la pertinence de chaque fonctionnalite",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "SPC-4.01",
@@ -1502,21 +1372,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "SPC-5",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Preparer le suivi du cycle de vie du projet et des indicateurs de performance / benefice NR",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "SPC-5.01",
         "Planet": "B",
         "People": "B",
@@ -1615,16 +1470,6 @@
         "Titre": "\"Les donnees et procedures specifiees ont-elles toutes une information de fin de vie ?"
     },
     {
-        "ID": "\"",
-        "Planet": "Les specifications font apparaitre des collections de donnees des procedures asynchrones ou des taches periodiques indispensables au bon fonctionnement du service. Ces elements sont le plus souvent invisibles et en l'absence de specifications explicites des processus de retrait ils sont rarement pris en compte dans les fins d'exploitation d'un service. Chacun de ces elements doit porter sa propre information de fin de vie.",
-        "People": "Fin de Vie",
-        "Prosperity": "*",
-        "Recommandation": "INCONTOURNABLE",
-        "Titre": "Dev , Designer , ProjectMngr , ProductOwner",
-        "Precisions": "Medium",
-        "Etape": "OnUpdate"
-    },
-    {
         "ID": "SPC-5.08",
         "Planet": "A",
         "People": "B",
@@ -1698,21 +1543,6 @@
         "Metiers": "Dev , Designer , ProjectMngr , ProductOwner",
         "Priorite": "Medium",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "SPC-6",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Determiner l'environnement de production dans lequel le projet sera construit et deploye en accord avec les principes NR",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "SPC-6.01",
@@ -1798,16 +1628,6 @@
         "Titre": "\"Est-ce que les ressources/composants disponibles pour le projet ont une information concernant la conformite NR ?"
     },
     {
-        "ID": "\"",
-        "Planet": "Les developpements modulaires sont mis en place dans les projets pour faciliter la reutilisation et permettre d'assembler des composants valides ce qui se traduit par des gains d'efficacite et de fiabilite. Cette pratique est basee sur les descriptions des interfaces (entrees-sorties) de ces composants, de leurs cadres d'utilisation et de leurs dependances. En plus de ces elements techniques les aspects et benefices NR implementes dans le composant sont utiles pour capitaliser en plus des aspects techniques sur les aspects NR.",
-        "People": "Revalorisation",
-        "Prosperity": "*",
-        "Recommandation": "",
-        "Titre": "Dev , Designer , ProjectMngr , ProductOwner",
-        "Precisions": "High",
-        "Etape": "OnUpdate"
-    },
-    {
         "ID": "SPC-6.05",
         "Planet": "B",
         "People": "C",
@@ -1866,21 +1686,6 @@
         "Metiers": "ProjectMngr , ProductOwner , Manager , ITMngr",
         "Priorite": "High",
         "Recurrence": "Periodic"
-    },
-    {
-        "ID": "UX/UI-1",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Integrer le Numerique Responsable dans les objectifs majeurs du projet",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "UX/UI-1.01",
@@ -2003,21 +1808,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "UX/UI-2",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Sensibiliser les parties prenantes internes et externes au Numerique Responsable",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "UX/UI-2.01",
         "Planet": "B",
         "People": "A",
@@ -2086,31 +1876,6 @@
         "Titre": "\"Pour permettre aux utilisateurs d'etre acteurs dans la reduction de leurs impacts, ont-ils acces a des references qui les invitent a des pratiques NR ?"
     },
     {
-        "ID": "\"",
-        "Planet": "Le comportement de l'utilisateur reste l'un des points sur lequel l'organisation n'a pas de controle. Malgre tous les benefices attendus d'une conception responsable de services numeriques, la pratique de l'utilisateur peut soit demultiplier les effets positifs, soit les reduire dans des proportions importantes. Communiquer des elements qui permettent a l'utilisateur de prendre conscience de ces actions pour qu'il reduise son impact est indispensable.",
-        "People": "Utilisation",
-        "Prosperity": "N/A",
-        "Recommandation": "",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": ""
-    },
-    {
-        "ID": "UX/UI-3",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Rendre disponible et accessible le service numerique au plus grand nombre d'utilisateurs",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "UX/UI-3.C01",
         "Planet": "C",
         "People": "A",
@@ -2132,16 +1897,6 @@
         "Prosperity": "B",
         "Recommandation": "Rendre disponible et accessible le service numerique au plus grand nombre d'utilisateurs",
         "Titre": "\""
-    },
-    {
-        "ID": "Quelles solutions sont deployees pour lutter contre l'illectronisme et simplifier les usages et services ?\"",
-        "Planet": "Reduire les inegalites d'acces au service numerique afin de n'exclure aucun utilisateur, ces cas d'exclusion peuvent etre fortement limites en prenant en compte tres tot dans la conception les disparites sociales, generationnelles et territoriales.",
-        "People": "Conception",
-        "Prosperity": "**",
-        "Recommandation": "",
-        "Titre": "Dev , Designer , ProductOwner ,",
-        "Precisions": "Low",
-        "Etape": "OnUpdate"
     },
     {
         "ID": "UX/UI-3.02",
@@ -2234,21 +1989,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "UX/UI-4",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Permettre aux personnes en situation de handicap ou souffrant de deficiences, d'acceder et d'utiliser efficacement le service numerique",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "UX/UI-4.01",
         "Planet": "C",
         "People": "A",
@@ -2279,21 +2019,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "UX/UI-5",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "\"\"\"Less is More\"\" : Concentrez vous sur les fonctionnalites essentielles et simplifiez votre interface\"",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "UX/UI-5.C01",
         "Planet": "A",
         "People": "B",
@@ -2316,18 +2041,6 @@
         "Recommandation": "\"\"\"Less is More\"\" : Concentrez vous sur les fonctionnalites essentielles et simplifiez votre interface\"",
         "Titre": "Est-ce que les fonctionnalites sont utilisees par l'utilisateur ?",
         "Precisions": "\"Selon des etudes (cast software et standish group), 70% des fonctionnalites ne sont jamais ou rarement utilisees. (ref 115 bonnes pratiques)"
-    },
-    {
-        "ID": ""
-    },
-    {
-        "ID": "Le nombre de fonctionnalites disponibles dans un service numerique impactent directement la consommation de ressources et l'impact environnemental, en creant des fonctionnalites de peu d'utilite. Ce sont des sources de creation de dettes environnementales totalement inutiles. Les fonctionnalites augmentent aussi le volume du service, qui introduisent des delais de chargements, des espaces de stockage supplementaires.\"",
-        "Planet": "Utilisation",
-        "People": "**",
-        "Prosperity": "INCONTOURNABLE",
-        "Recommandation": "Dev , Designer , ProductOwner ,",
-        "Titre": "High",
-        "Precisions": "Periodic"
     },
     {
         "ID": "UX/UI-5.02",
@@ -2399,24 +2112,6 @@
         "Precisions": "\"Il est souvent produit une quantite non negligeable de fichiers, souvent versionnes, afin de repondre aux exigences client."
     },
     {
-        "ID": "Instaurer une bonne pratique de gestion des fichiers (livrables client comme internes) est essentiel."
-    },
-    {
-        "ID": "Trier et supprimer les versions obsoletes et non utilisables aura un impact positif sur le stockage."
-    },
-    {
-        "ID": "En effet, toutes ces donnees stockees ont un cout environnemental car liees a l'utilisation de serveurs le plus souvent, et representent donc un cout financier important egalement."
-    },
-    {
-        "ID": "Definir une politique d'archivage des contenus contribuera a une gestion responsable et efficace de la production du service.\"",
-        "Planet": "Fin de Vie",
-        "People": "**",
-        "Prosperity": "",
-        "Recommandation": "Dev , Designer , ProductOwner ,",
-        "Titre": "Medium",
-        "Precisions": "Periodic"
-    },
-    {
         "ID": "UX/UI-5.C04",
         "Planet": "B",
         "People": "B",
@@ -2441,33 +2136,6 @@
         "Precisions": "\"Il est courant d'utiliser des services tiers rattaches a l'utilisation des reseaux sociaux, geolocalisation, etc."
     },
     {
-        "ID": "L'utilisation de ces services tiers doit etre au service de l'information et non pas de s'y substituer car leur usage est tres gourmand en ressources, bande passante et batterie des terminaux notamment."
-    },
-    {
-        "ID": "Il est important de limiter leur usage au strict necessaire afin de limiter leur impact environnemental.\"",
-        "Planet": "Conception",
-        "People": "N/A",
-        "Prosperity": "",
-        "Recommandation": "",
-        "Titre": "",
-        "Precisions": ""
-    },
-    {
-        "ID": "UX/UI-6",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Permettre aux utilisateurs de reduire leurs impacts",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "UX/UI-6.C01",
         "Planet": "A",
         "People": "B",
@@ -2475,21 +2143,6 @@
         "Recommandation": "Permettre aux utilisateurs de reduire leurs impacts",
         "Titre": "L'utilisation du service permet-elle d'envisager des configurations logicielles ou materielles moins impactantes pour l'environnement ?",
         "Precisions": "\"Les equipements utilisateurs sont de plus en plus performants et les services numeriques exploitent ces capacites techniques."
-    },
-    {
-        "ID": "Cela a pour effet d'accentuer la fracture numerique en excluant une partie des utilisateurs qui ne peuvent se procurer ces terminaux qui ont un cout financier important."
-    },
-    {
-        "ID": ""
-    },
-    {
-        "ID": "Il est donc important de se questionner sur l'utilite du recours a ces technologies pour arriver a la finalite du service numerique tout en preservant l'acces au plus grand nombre.\"",
-        "Planet": "Utilisation",
-        "People": "N/A",
-        "Prosperity": "",
-        "Recommandation": "",
-        "Titre": "",
-        "Precisions": ""
     },
     {
         "ID": "UX/UI-6.01",
@@ -2501,52 +2154,12 @@
         "Precisions": "\"Un service numerique possede une duree de vie qu'il est important de prolonger au maximum."
     },
     {
-        "ID": "Il existe souvent une version beta, puis suivent d'autres fonctionnalites viendront se rajouter au fil de temps."
-    },
-    {
-        "ID": "Il est important de soulever ces questions des la conception du service avec les differents partenaires et clients afin de developper un service modulable et adaptable dans le temps."
-    },
-    {
-        "ID": "Cela permettra de limiter les couts financiers a terme et environnementaux car le service sera evolutif, prolongeant ainsi sa duree de vie.\"",
-        "Planet": "Utilisation",
-        "People": "***",
-        "Prosperity": "",
-        "Recommandation": "Dev , Designer , ProjectMngr , ProductOwner , ITMngr",
-        "Titre": "Medium",
-        "Precisions": "OnUpdate"
-    },
-    {
         "ID": "UX/UI-6.C02",
         "Planet": "A",
         "People": "A",
         "Prosperity": "B",
         "Recommandation": "Permettre aux utilisateurs de reduire leurs impacts",
         "Titre": "\"Tous les elements constitutifs de l'interface font-ils l'objet d'une attention particuliere en matiere d'impact NR, tout en respectant les regles d'accessibilite ?"
-    },
-    {
-        "ID": "\"",
-        "Planet": "\"Plus le theme visuel est simple, plus il sera econome en ressources consommees pour l'afficher."
-    },
-    {
-        "ID": "Plus le service implemente de composants (charge sur les serveurs, les reseaux et les peripheriques), plus l'impact du nombre d'utilisateur simultanes est important."
-    },
-    {
-        "ID": "La solution technique est souvent de surdimensionner les environnements de production pour assurer une meilleure fluidite sur service."
-    },
-    {
-        "ID": "Proposer aux utilisateurs de choisir une presentation du service moins gourmande contribuera a reduire l'impact environnemental (encombrement des reseaux et du surdimensionnement des infrastructures)."
-    },
-    {
-        "ID": "Avec l'augmentation du nombre d'utilisateurs, le service s'allegera, le perimetre global restera constant et/ou maitrise avec des moyens techniques justement dimensionnes."
-    },
-    {
-        "ID": "De plus, cela aura un role pedagogique : l'utilisateur pourra devenir acteur de sa propre consommation et de son impact environnemental.\"",
-        "Planet": "Acquisition",
-        "People": "N/A",
-        "Prosperity": "",
-        "Recommandation": "",
-        "Titre": "",
-        "Precisions": ""
     },
     {
         "ID": "UX/UI-6.C03",
@@ -2571,18 +2184,6 @@
         "Recommandation": "Permettre aux utilisateurs de reduire leurs impacts",
         "Titre": "Un espace de parametrage oriente NR est-il a disposition de l'utilisateur, pour limiter au maximum le nombre d'elements de presentation ? ",
         "Precisions": "\"Chaque action compte et l'utilisateur a pleinement son role a jouer dans la reduction de son incidence environnementale."
-    },
-    {
-        "ID": "Sensibiliser l'utilisateur et lui permettre d'en etre acteur."
-    },
-    {
-        "ID": "Informer de l'impact de ses actions et proposer des alternatives simples et rapides permettront d'avoir un usage plus responsable du service et de developper une conscience collective, a terme, concernant la pollution numerique.\"",
-        "Planet": "Utilisation",
-        "People": "N/A",
-        "Prosperity": "",
-        "Recommandation": "",
-        "Titre": "",
-        "Precisions": ""
     },
     {
         "ID": "UX/UI-6.02",
@@ -2613,21 +2214,6 @@
         "Metiers": "Dev , Designer , ProductOwner ,",
         "Priorite": "High",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "UX/UI-7",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "\"\"\"Barebone Iteration\"\": Iterer votre solution jusqu'au minimalisme \"\"acceptable\"\" par vos utilisateurs\"",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "UX/UI-7.01",
@@ -2735,21 +2321,6 @@
         "Recurrence": "Periodic"
     },
     {
-        "ID": "UX/UI-8",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Ingenierie media : alleger au maximum les medias du service numerique ( images, animations, contenu ... )",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "UX/UI-8.01",
         "Planet": "A",
         "People": "B",
@@ -2786,16 +2357,6 @@
         "Prosperity": "A",
         "Recommandation": "Ingenierie media : alleger au maximum les medias du service numerique ( images, animations, contenu ... )",
         "Titre": "\"Une politique de gestion/utilisation des medias afin de reduire leurs impacts est-elle en place, avec des criteres de compression et de formats des medias ?"
-    },
-    {
-        "ID": "\"",
-        "Planet": "Le volume de donnees transferees augmente l'empreinte environnementale du service. Il est necessaire de proposer les medias necessaires a l'affichage du service dans la compression idoine afin d'ameliorer le service et augmenter sa sobriete. ",
-        "People": "Realisation",
-        "Prosperity": "*",
-        "Recommandation": "INCONTOURNABLE",
-        "Titre": "Dev , Designer ,",
-        "Precisions": "High",
-        "Etape": "OnUpdate"
     },
     {
         "ID": "UX/UI-8.03",
@@ -2856,21 +2417,6 @@
         "Metiers": "Dev , Designer ,",
         "Priorite": "High",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "UX/UI-9",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Valeur : soyez transparent avec vos utilisateurs",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "UX/UI-9.C01",
@@ -2963,21 +2509,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "UX/UI-10",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Valeur: concevez un Service Numerique ethique, en ligne avec vos valeurs",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "UX/UI-10.01",
         "Planet": "A",
         "People": "B",
@@ -3053,21 +2584,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "CTN-1",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Appliquer une demarche editoriale pour les contenus",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "CTN-1.01",
         "Planet": "B",
         "People": "C",
@@ -3141,21 +2657,6 @@
         "Metiers": "Dev , Designer ,",
         "Priorite": "Medium",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "CTN-2",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Reduire l'empreinte des contenus statiques",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "CTN-2.01",
@@ -3368,21 +2869,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "CTN-3",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Eviter les contenus actifs, conserver les contenus dynamiques sous controle de l'utilisateur",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "CTN-3.C01",
         "Planet": "A",
         "People": "B",
@@ -3578,21 +3064,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "CTN-4",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Faciliter la perception des contenus par l'utilisateur",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "CTN-4.C01",
         "Planet": "A",
         "People": "C",
@@ -3696,21 +3167,6 @@
         "Metiers": "Dev , Designer , ProductOwner",
         "Priorite": "High",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "CTN-5",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Assurer la liaison entre les contenus et usages",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "CTN-5.C01",
@@ -3848,21 +3304,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "ARCH-1",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Appliquer une demarche qui garantit les aspects NR",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "ARCH-1.01",
         "Planet": "B",
         "People": "B",
@@ -3902,21 +3343,6 @@
         "Precisions": "La fiabilisation du processus de production permet de reduire les impacts lies a des re-livraisons suite a des erreurs et permet de livrer des codes qui remplissent leurs fonctions. La consommation de ressources pour un resultat errone etant considere comme un gaspillage inutile de ressources.",
         "Etape": "Deploiement",
         "Difficulte": "N/A",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
-        "ID": "ARCH-2",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Anticiper l'exploitation des services",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
         "Incontournables": "",
         "Metiers": "",
         "Priorite": "",
@@ -4013,21 +3439,6 @@
         "Recurrence": "Once"
     },
     {
-        "ID": "ARCH-3",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Gerer la vie des donnees",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "ARCH-3.01",
         "Planet": "B",
         "People": "B",
@@ -4103,21 +3514,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "ARCH-4",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Controler et mesurer les impacts",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "ARCH-4.01",
         "Planet": "A",
         "People": "B",
@@ -4172,21 +3568,6 @@
         "Precisions": "La fiabilite et la pertinence des indicateurs reposent sur la validite des donnees d'entrees. Il est important de s'assurer de cette validite avant de se lancer dans l'exploitation de donnees de performance environnementale.",
         "Etape": "Administration",
         "Difficulte": "N/A",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
-        "ID": "ARCH-5",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Limiter les volumetries dans les echanges",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
         "Incontournables": "",
         "Metiers": "",
         "Priorite": "",
@@ -4283,21 +3664,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "ARCH-6",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Definir un modele de production evolutif",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "ARCH-6.01",
         "Planet": "B",
         "People": "B",
@@ -4367,21 +3733,6 @@
         "Precisions": "La qualification des fournisseurs s'appuie sur des regles de decisions qui permettent de statuer sur la perennite de la relation. Parmi ces regles doivent figurer des elements lies au NR. Ces aspects NR doivent avoir un impact important dans l'evaluation de la solvabilite du fournisseur.",
         "Etape": "Acquisition",
         "Difficulte": "N/A",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
-        "ID": "ARCH-7",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Associer les donnees, les flux, les applicatifs et la securite pour permettre leur identification et leur tracabilite",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
         "Incontournables": "",
         "Metiers": "",
         "Priorite": "",
@@ -4463,21 +3814,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "ARCH-8",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Anticiper les impacts sur la production",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "ARCH-8.C01",
         "Planet": "B",
         "People": "A",
@@ -4514,16 +3850,6 @@
         "Prosperity": "B",
         "Recommandation": "Anticiper les impacts sur la production",
         "Titre": "\"La valeur ajoutee du framework justifie-t-elle l'alourdissement de l'applicatif ?"
-    },
-    {
-        "ID": "D'autres librairies ou framework plus legers et correspondant au besoin existent-ils ? \"",
-        "Planet": "Les alternatives entre des solutions developpees en interne et l'utilisation de frameworks doivent prendre en consideration les aspects Numerique Responsable. Les frameworks fournissent plus de fonctionnalites que necessaire pour le projet et integrent des composants et des dependances pour remplir la totalite des fonctionnalites offertes. Le rapport entre les fonctionnalites apportees par le framework et celles reellement recherchees est critique. Le choix du framework doit aussi permettre de restreindre son perimetre fonctionnel aux seuls elements indispensables pour le service. ",
-        "People": "Acquisition",
-        "Prosperity": "***",
-        "Recommandation": "",
-        "Titre": "Dev , ProjectMngr , ITMngr ,",
-        "Precisions": "High",
-        "Etape": "OnUpdate"
     },
     {
         "ID": "ARCH-8.02",
@@ -4670,21 +3996,6 @@
         "Precisions": "Les enjeux NR ne sont jamais etablis definitivement et doivent faire l'objet d'un suivi periodique",
         "Etape": "Maintenance",
         "Difficulte": "N/A",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
-        "ID": "ARCH-9",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Definir les objectifs NR du projet et leur adequation dans le contexte operationnel",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
         "Incontournables": "",
         "Metiers": "",
         "Priorite": "",
@@ -4841,21 +4152,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "ARCH-10",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Integrer les equipes dans le projet",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "ARCH-10.C01",
         "Planet": "A",
         "People": "A",
@@ -4925,21 +4221,6 @@
         "Precisions": "La prise en compte des aspects NR fait au demarrage de la conception peut etre respectee mais dans un mode iteratif il est possible de s'en ecarter graduellement. Les revues du respect NR sont indispensables pour conserver la coherence du projet.",
         "Etape": "Maintenance",
         "Difficulte": "N/A",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
-        "ID": "FRT-1",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Valider le perimetre et la couverture fonctionnelle du projet",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
         "Incontournables": "",
         "Metiers": "",
         "Priorite": "",
@@ -5051,21 +4332,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "FRT-2",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Federer les equipes et le public cible",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "FRT-2.C01",
         "Planet": "B",
         "People": "B",
@@ -5124,21 +4390,6 @@
         "Metiers": "Dev , Designer , ProjectMngr , ProductOwner , RSE/NR ,",
         "Priorite": "Medium",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "FRT-3",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Utiliser les environnements et outils qui permettent de limiter les impacts",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "FRT-3.01",
@@ -5321,21 +4572,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "FRT-4",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Reduire les effets d'obsolescence",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "FRT-4.01",
         "Planet": "A",
         "People": "B",
@@ -5394,21 +4630,6 @@
         "Metiers": "Dev , Designer , ProjectMngr , ProductOwner",
         "Priorite": "Medium",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "FRT-5",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Implementer et developper les fonctionnalites pour limiter les impacts",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "FRT-5.01",
@@ -5501,21 +4722,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "FRT-6",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "S'assurer que l'utilisation du service permet le controle des impacts",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "FRT-6.01",
         "Planet": "A",
         "People": "B",
@@ -5589,21 +4795,6 @@
         "Metiers": "Dev , ProjectMngr , ITMngr ,",
         "Priorite": "Low",
         "Recurrence": "Once"
-    },
-    {
-        "ID": "FRT-7",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Limiter les utilisations de composants hardware ou capteurs sur les terminaux utilisateurs",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "FRT-7.01",
@@ -5741,21 +4932,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "FRT-8",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Faciliter l'utilisation du service dans de bonnes conditions pour tous les utilisateurs",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "FRT-8.01",
         "Planet": "B",
         "People": "A",
@@ -5795,21 +4971,6 @@
         "Precisions": "Les donnees que l'utilisateur confie lorsqu'elles entrent dans un cadre reglementaire doivent etre exposees aux utilisateurs pour qu'ils puissent les transmettre avec un consentement eclaire.",
         "Etape": "Utilisation",
         "Difficulte": "N/A",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
-        "ID": "FRT-9",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Implementer des solutions techniques dont l'impact est le plus faible",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
         "Incontournables": "",
         "Metiers": "",
         "Priorite": "",
@@ -6049,19 +5210,6 @@
         "Titre": "\"Limitez-vous le nombre de fonts chargees pour le service ?"
     },
     {
-        "ID": "Privilegiez-vous les fonts web-safe ?\"",
-        "Planet": "\"Chaque police est encodee dans un fichier presentant tous les symboles associes ce qui represente un volume de donnees important echange et manipule. "
-    },
-    {
-        "ID": "Les polices systemes sont embarquees dans les outils de presentation et ne sont pas vehiculees, les flux sont donc reduits lorsqu'elles sont utilisees.\"",
-        "Planet": "Realisation",
-        "People": "*",
-        "Prosperity": "",
-        "Recommandation": "Dev , ProjectMngr , ITMngr ,",
-        "Titre": "High",
-        "Precisions": "OnUpdate"
-    },
-    {
         "ID": "FRT-9.10",
         "Planet": "A",
         "People": "B",
@@ -6137,21 +5285,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "FRT-10",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Rechercher la mise en oeuvre de comportements sobres",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "FRT-10.01",
         "Planet": "A",
         "People": "B",
@@ -6197,37 +5330,12 @@
         "Recurrence": ""
     },
     {
-        "ID": "BCK-1",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Reduire l'impact des donnees de leur stockage et acces",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "BCK-1.01",
         "Planet": "A",
         "People": "C",
         "Prosperity": "A",
         "Recommandation": "Reduire l'impact des donnees de leur stockage et acces",
         "Titre": "\"Est-ce que le nombre de requetes est minimise (proscrire l'usage de boucle) ?"
-    },
-    {
-        "ID": "\"",
-        "Planet": "Chaque echange va consommer des ressources sur l'emetteur et le destinataire, consommer des flux d'echange et des donnees. Il est necessaire de reduire ces echanges",
-        "People": "Realisation",
-        "Prosperity": "*",
-        "Recommandation": "INCONTOURNABLE",
-        "Titre": "Dev , ProjectMngr , ITMngr ,",
-        "Precisions": "High",
-        "Etape": "OnUpdate"
     },
     {
         "ID": "BCK-1.C01",
@@ -6251,16 +5359,6 @@
         "Prosperity": "B",
         "Recommandation": "Reduire l'impact des donnees de leur stockage et acces",
         "Titre": "\"Est-ce que les requetes implementees utilisent les jointures plutot que de multiplier les requetes ? "
-    },
-    {
-        "ID": "\"",
-        "Planet": "Les mecanismes d'acces aux donnees peuvent engendrer des temps de traitement importants et donc une utilisation importante de ressources. Le plus souvent ces charges sont associees a une session utilisateur et donc se multiplient avec l'augmentation du trafic sur le service. Les moteurs de SGBD proposent plusieurs mecanismes d'analyse efficaces vis-a-vis de l'organisation des donnees et du besoin. Reduire la charge d'acces aux donnees pour une session utilisateur est utile d'un point de vue environnemental et efficace pour les performances techniques du service.",
-        "People": "Realisation",
-        "Prosperity": "**",
-        "Recommandation": "",
-        "Titre": "Dev , ProjectMngr , ITMngr",
-        "Precisions": "High",
-        "Etape": "OnUpdate"
     },
     {
         "ID": "BCK-1.C02",
@@ -6361,16 +5459,6 @@
         "Titre": "\"Est-ce que les clauses EXPLAIN sont utilisees sur les requetes issues des \"\"Slow query\"\" pour optimiser les index ?"
     },
     {
-        "ID": "\"",
-        "Planet": "\"La plupart des moteurs de SGBD disposent en standard d'un mode de supervision permettant d'identifier les actions les plus consommatrices de ressources. Les methodes d'investigations des traitements identifies comme \"\"lourds\"\" sont aussi fournies par les moteurs afin de donner les axes d'amelioration possibles pour reduire les delais et charges des operations.\"",
-        "People": "Realisation",
-        "Prosperity": "N/A",
-        "Recommandation": "",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": ""
-    },
-    {
         "ID": "BCK-1.C07",
         "Planet": "B",
         "People": "C",
@@ -6454,16 +5542,6 @@
         "Titre": "\"Est-ce que des donnees sensibles sont collectees ?"
     },
     {
-        "ID": "Sont-elles indispensables ?\"",
-        "Planet": "Les donnees que les utilisateurs confient sont sous votre responsabilite et les utilisateurs doivent etre tenus informes du soin que vous mettez en oeuvre pour assurer la confidentialite de ces donnees. Le RGPD impose un cadre pour les donnees personnelles mais ne couvre pas les autres categories qui meriteraient les memes precautions. Le registre des traitements, le PIA du RGPD doivent etre realises, mis a jour et valides par le DPO (Delegue a la Protection de Donnees). Les donnees echangees avec d'autres prestataires doivent faire l'objet d'une analyse de responsabilite. Limiter la collecte de donnees sensibles, au-dela du respect de l'utilisateur, reduit aussi la charge et la responsabilite d'administration de ces donnees personnelles",
-        "People": "Conception",
-        "Prosperity": "*",
-        "Recommandation": "",
-        "Titre": "Dev , ProjectMngr , ProductOwner ,",
-        "Precisions": "High",
-        "Etape": "OnUpdate"
-    },
-    {
         "ID": "BCK-1.10",
         "Planet": "B",
         "People": "B",
@@ -6518,21 +5596,6 @@
         "Precisions": "Le cadre reglementaire de certaines categories de donnees est tres strict, le respect de ces donnees pour proteger les utilisateurs est un critere important. Il est indispensable que dans le processus de developpement aucune breche ne soit possible et que toutes les interoperabilites avec les mecanismes standards de ces domaines soient validees.",
         "Etape": "Deploiement",
         "Difficulte": "N/A",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
-        "ID": "BCK-2",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Utiliser les composants techniques qui ameliorent les aspects NR, securite et performance",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
         "Incontournables": "",
         "Metiers": "",
         "Priorite": "",
@@ -6712,16 +5775,6 @@
         "Titre": "\"Est-ce qu'une solution Open Source est disponible pour le besoin fonctionnel ?"
     },
     {
-        "ID": "\"",
-        "Planet": "Une solution Open Source n'est pas un gage d'efficacite NR et les differentes alternatives doivent etre challengees. Mais l'Open Source permet de limiter les ambitions et mainmises de certains acteurs dont les pratiques economiques, sociales sont opaques. ",
-        "People": "Acquisition",
-        "Prosperity": "N/A",
-        "Recommandation": "",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": ""
-    },
-    {
         "ID": "BCK-2.C09",
         "Planet": "B",
         "People": "B",
@@ -6797,21 +5850,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "BCK-3",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Limiter la volumetrie des echanges ",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "BCK-3.01",
         "Planet": "A",
         "People": "B",
@@ -6870,21 +5908,6 @@
         "Metiers": "Dev , ProjectMngr , ITMngr ,",
         "Priorite": "High",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "BCK-4",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Utiliser des principes de developpement qui reduisent les impacts",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "BCK-4.01",
@@ -7037,21 +6060,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "BCK-5",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Controler les aspects reglementaires",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "BCK-5.01",
         "Planet": "C",
         "People": "B",
@@ -7155,21 +6163,6 @@
         "Metiers": "ProjectMngr , ProductOwner , Manager , RSE/NR ,ITMngr",
         "Priorite": "High",
         "Recurrence": "Periodic"
-    },
-    {
-        "ID": "BCK-6",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Mettre en place une methodologie qui favorise la prise en compte des aspects NR",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "BCK-6.C01",
@@ -7382,21 +6375,6 @@
         "Recurrence": "OnUpdate"
     },
     {
-        "ID": "HEB-1",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Reduire l'impact de l'hebergement",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "HEB-1.C01",
         "Planet": "A",
         "People": "C",
@@ -7405,32 +6383,12 @@
         "Titre": "\"Le refroidissement affecte-t-il les nappes phreatiques ?"
     },
     {
-        "ID": "\"",
-        "Planet": "L'utilisation de l'eau est associee aux hebergements informatiques. Le plus souvent l'eau circule mais la degradation peut provenir a la fois de la temperature et de la purete.",
-        "People": "Utilisation",
-        "Prosperity": "N/A",
-        "Recommandation": "",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": ""
-    },
-    {
         "ID": "HEB-1.C02",
         "Planet": "A",
         "People": "C",
         "Prosperity": "C",
         "Recommandation": "Reduire l'impact de l'hebergement",
         "Titre": "\"L'emplacement du datacenter affecte-t-il l'ecosysteme a proximite ?"
-    },
-    {
-        "ID": "\"",
-        "Planet": "Les datacenters sont rarement installes au coeur des zones urbaines, ils beneficient d'environnement naturels plus favorables qu'ils ne doivent pas contribuer a appauvrir.",
-        "People": "Acquisition",
-        "Prosperity": "N/A",
-        "Recommandation": "",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": ""
     },
     {
         "ID": "HEB-1.C03",
@@ -7643,21 +6601,6 @@
         "Recurrence": "Periodic"
     },
     {
-        "ID": "HEB-2",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Associer les aspects humains et techniques",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "HEB-2.C01",
         "Planet": "C",
         "People": "A",
@@ -7746,21 +6689,6 @@
         "Metiers": "ProjectMngr , ITMngr ,",
         "Priorite": "High",
         "Recurrence": "Periodic"
-    },
-    {
-        "ID": "HEB-3",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Adapter l'utilisation des equipements techniques aux besoins",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "HEB-3.01",
@@ -7941,21 +6869,6 @@
         "Metiers": "ProjectMngr , ITMngr ,",
         "Priorite": "Medium",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": "HEB-4",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Suivre les impacts de l'hebergeur",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
     },
     {
         "ID": "HEB-4.01",
@@ -8153,21 +7066,6 @@
         "Recurrence": ""
     },
     {
-        "ID": "HEB-5",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Garder la coherence de positionnement entre les besoins et les choix d'hebergement",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
         "ID": "HEB-5.01",
         "Planet": "A",
         "People": "B",
@@ -8267,21 +7165,6 @@
         "Precisions": "L'operateur de datacenter peut avoir lance une demarche NR, et etre en mesure d'exposer son adhesion et ses actions pour le NR",
         "Etape": "Acquisition",
         "Difficulte": "N/A",
-        "Incontournables": "",
-        "Metiers": "",
-        "Priorite": "",
-        "Recurrence": ""
-    },
-    {
-        "ID": "HEB-6",
-        "Planet": "",
-        "People": "",
-        "Prosperity": "",
-        "Recommandation": "Definir les enjeux et fonctionnalites du projet",
-        "Titre": "",
-        "Precisions": "",
-        "Etape": "",
-        "Difficulte": "",
         "Incontournables": "",
         "Metiers": "",
         "Priorite": "",
@@ -8421,8 +7304,5 @@
         "Metiers": "ProjectMngr , ITMngr ,",
         "Priorite": "Medium",
         "Recurrence": "OnUpdate"
-    },
-    {
-        "ID": ""
     }
 ]
