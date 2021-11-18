@@ -1,27 +1,16 @@
 let nbID = 0;
 let n = 0;
 
+<<<<<<< Updated upstream
 substring();
+=======
 
-
-function substring() {
-    for (var g = 0; g < lists.length; g++) {
-        const str = lists[g].ID;
-        if (str.substring(0, 3) == "SPC") {
-            nbID++;
-        }
-    }
-    nbID = Math.floor(nbID / 3);
-}
+setdata();
+>>>>>>> Stashed changes
 
 
 function setdatainarray() {
-
-    /*for (let g = 0; g < lists.length; g++) {
-        str = lists[g].ID;
-        if (str.substring(0, 3) == "STR") {*/
     for (let o = 0; o < lists.length; o++) {
-
 
         /* Ici on créé la ligne principal*/
         SearchIdNav = document.getElementById("strate");
@@ -48,7 +37,6 @@ function setdatainarray() {
                 CreateDivRowS = document.createElement("div");
                 CreateDivRowS.className = "row";
                 CreateDivRowS.id = "RowS" + o + i + j;
-                /*CreateDivRowS.style = "border: solid 1px";*/
                 SearchIdColP.appendChild(CreateDivRowS);
 
                 for (let k = 0; k < 3; k++) {
@@ -64,6 +52,9 @@ function setdatainarray() {
 
                     switch (h) {
                         case 1:
+                            if ((lists[n].ID == "undefined") || (lists[n].ID == "")) {
+                                lists[n].ID = "Undefined";
+                            }
                             CreateDivColS.innerHTML = lists[n].ID;
                             break;
                         case 2:
@@ -100,12 +91,9 @@ function setdatainarray() {
                         default:
                             // code block
                     }
-                    /*CreateDivColS.innerHTML = n;*/
                 }
             }
         }
     }
 }
-/*}
-}*/
 setdatainarray();
