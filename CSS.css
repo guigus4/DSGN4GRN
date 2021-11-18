@@ -96,7 +96,6 @@ nav ul li{
     width: 25%;
     border: 1%;
     text-align: center;
-    position: relative;
 }
 
 nav ul::after{
