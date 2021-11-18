@@ -126,6 +126,7 @@ nav a:hover{
     background-color: white;
     width: 100%;
     z-index: 2;
+    position: sticky;
 }
 nav > ul li:hover .sous{
     color: green;
