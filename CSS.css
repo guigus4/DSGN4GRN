@@ -89,6 +89,7 @@ nav a{
     color: black;
     border-bottom: 2% solid transparent;
     padding: 10% 0%;
+    background: linear-gradient(to bottom, #F2F8F9, #FFFFFF);
 }
 
 nav a:hover{
