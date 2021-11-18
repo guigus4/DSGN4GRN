@@ -1,45 +1,18 @@
-<<<<<<< HEAD
-document.getElementById("cadre_projet_1").checked;
-if (document.getElementById("cadre_projet_1").checked === true) {
- alert("Salut moi c'est laura");
-}
-
-
-
-
-
-var btnPopup = document.getElementById('btnPopup');
-var overlay = document.getElementById('overlay');
-btnPopup.addEventListener('click',openMoadl);
-function openMoadl() {
-overlay.style.display='block';
-}
-=======
 let carts = document.querySelectorAll('.add-panier');
 
-let lists = [
-    {
-        name : 'Option 1',
-        tag : 'obj1',
-        flagInPanier : false
-    },
-    {
-        name : 'Option 2',
-        tag : 'obj2',
-        flagInPanier : false
-    },
-    {
-        name : 'Option 3',
-        tag : 'obj3',
-        flagInPanier : false
-    }
-];
+console.log(carts);
 
 for(let i = 0; i< carts.length ; i++){
     carts[i].addEventListener('click', () =>{
         NombrePanier(lists[i]);
     } )
 }
+
+lists.forEach(element => {
+    if(element.Incontournables =="INCONTOURNABLE"){
+        NombrePanier(element);
+    }
+});
 
 function onLoadNombrePanier(){
     let nbTotalIn = localStorage.getItem('nombreTotalPanier');
@@ -73,17 +46,17 @@ function setItems(list){
     PanierItem=JSON.parse(PanierItem);
 
     if(PanierItem != null){
-        if(PanierItem[list.tag] == undefined){
+        if(PanierItem[list.ID] == undefined){
             PanierItem = {
                 ...PanierItem,
-                [list.tag]: list
+                [list.ID]: list
             }
-            PanierItem[list.tag].flagInPanier = true;
+            PanierItem[list.ID].flagInPanier = true;
         }
     }else{
         list.flagInPanier = true;
         PanierItem ={
-            [list.tag]: list
+            [list.ID]: list
         }
     }
     
@@ -91,7 +64,7 @@ function setItems(list){
 }
 
 function displayPanier(){
-    let PanierItems = localStorage.getItem("listInPanier")
+    let PanierItems = localStorage.getItem("listInPanier");
     PanierItems = JSON.parse(PanierItems);
     let productContainer = document.querySelector(".products");
     let nbTotalIn = localStorage.getItem('nombreTotalPanier');
@@ -101,8 +74,8 @@ function displayPanier(){
         Object.values(PanierItems).map(item => {
             productContainer.innerHTML += `
             <div class="product">
-                <ion-icon name="close-circle"></ion-icon>
-                <span>${item.name}</span>
+                <ion-icon name="close-circle" ></ion-icon>
+                <span>${item.ID}  ${item.Incontournables}</span>
             </div>
             `;
         });
@@ -116,6 +89,7 @@ function displayPanier(){
     }
 }
 
+
+
 onLoadNombrePanier();
 displayPanier();
->>>>>>> 84f1cc21dbbfd761c22a472830a1e7104a853ccf

@@ -1,14 +1,8 @@
-let lists;
 let nbID = 0;
 let n = 0;
 
-
-setdata();
 substring();
 
-function setdata() {
-    lists = JSON.parse(JSON.stringify(data));
-}
 
 function substring() {
     for (var g = 0; g < lists.length; g++) {
@@ -98,7 +92,7 @@ function setdatainarray() {
                             CreateDivColS.innerHTML = "Add ->";
                             break;
                         case 8:
-                            CreateDivColS.innerHTML = '<a class="add-panier panier" href="#"> Ajouter au panier</a>';
+                            CreateDivColS.innerHTML = `<a class="add-panier panier" href="#"> Ajouter au panier</a>`;
                             break;
                         case 9:
                             CreateDivColS.innerHTML = "<- Add";
