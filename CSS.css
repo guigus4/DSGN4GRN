@@ -43,7 +43,7 @@ button {
 h1,h2 {
     color: green;
     text-align: center;
-    top margin: ;
+
 }
 
 *{
@@ -88,7 +88,7 @@ nav a{
     text-decoration: none;
     color: black;
     border-bottom: 2% solid transparent;
-    padding: 0% 0%;
+    padding: 10% 0%;
     background: linear-gradient(to bottom, #F2F8F9, #FFFFFF);
 }
 
